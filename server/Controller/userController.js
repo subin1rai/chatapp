@@ -88,6 +88,7 @@ const findUsers = async (req, res) => {
         res.status(500).json({ error: "Failed to find user" });
     }
 };
+
 module.exports = {
     registerUser,
     loginUser,
